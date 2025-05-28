@@ -1,6 +1,6 @@
 # PATRIUS-DATASET
 
-This repository contains the source code for the **PATRIUS-DATASET** library. While it is designed to work seamlessly with the latest **Patrius v4.16**, it remains fully compatible with all previous versions from **Patrius v4.12 onward**.
+This repository contains the source code for the **PATRIUS-DATASET v4.6** library. While it is designed to work seamlessly with the latest **Patrius v4.16**, it remains fully compatible with all previous versions from **Patrius v4.12 onward**.
 
 ## ABOUT
 

@@ -1,46 +1,40 @@
-![patrius_logo](http://patrius.cnes.fr/resources/assets/wiki.png "Patrius logo") 
+# PATRIUS-DATASET Source Code
 
-
-# PATRIUS Source Code
-
-This project contains the source code of the PATRIUS-DATASET library. 
-Although this code calls the latest version of PATRIUS,**Patrius v4.16**, it is also compatible with all previous versions of Patrius > v4.12.
+This repository contains the source code for the *PATRIUS-DATASET* library. While it is designed to work seamlessly with the latest *Patrius v4.16*, it remains fully compatible with all previous versions from *Patrius v4.12 onward*.
 
 ## ABOUT
 
-PATRIUS-DATASET is a small library developed by the [CNES](http://cnes.fr) and set of environment data for PATRIUS.
+PATRIUS-DATASET is a lightweight library developed by [CNES](http://cnes.fr) that provides a comprehensive set of environmental data tailored for use with PATRIUS.
 
-It makes quite easy to configure PATRIUS data for these different usages:
+It simplifies the configuration of PATRIUS data for a variety of applications, including:
 
-Solar activity for atmospheric models needs
-Earth Orientation Parameters (EOP)
-Third bodies ephemeris from JPL (DE 405 / 406)
-Earth potential models, oceanic tides data
-Geomagnetic models
-Time scales (UTC-TAI)
+- Solar activity data for atmospheric modeling
+- Earth Orientation Parameters (EOP)
+- Ephemerides of third bodies from JPL (DE 405 / 406)
+- Earth gravity potential models and oceanic tide data
+- Geomagnetic models
+- Time scales (UTC-TAI)
 
+To get started, simply link this library and add the following line at the beginning of your program to enable full functionality:
 
-Link this library and add this simple line of code at the beginning of your program and it will be fully operational!
+`PatriusDataset.addResourcesFromPatriusDataset();`
 
-PatriusDataset.addResourcesFromPatriusDataset();
-
-PATRIUS_DATASET is regularly updated with up-to-date data, but PATRIUS users can still use low-level mechanisms to access their own specific data.
+The PATRIUS-DATASET library is regularly updated with the latest data. However, PATRIUS users also retain the flexibility to access custom data through lower-level mechanisms if needed.
 
 
 ## PROJECT DOCUMENTATION
 
-PATRIUS has its own Wiki accessible at the following address: http://patrius.cnes.fr
-Through this link, you can also access the project overview, architecture and development, detailed features list, Javadoc and a lot more information.
+PATRIUS offers extensive documentation, including a project overview, system architecture, feature lists, and Javadoc references. You can explore these resources on the official Wiki at: http://patrius.cnes.fr
 
 
 ## RELEASES
 
-Official releases are available on https://www.connectbycnes.fr/en/patriusdataset.
+Official releases of PATRIUS-DATASET are available at: https://www.connectbycnes.fr/en/patriusdataset.
 
 
 ## SUPPORT
 
-patrius@cnes.fr
+For questions or support, please contact: patrius@cnes.fr
 
 
 ## LICENCE
